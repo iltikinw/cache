@@ -1,4 +1,4 @@
-# cachesim.c - A cache memory simulator built in C.
+# cachesim.c - A cache memory simulator.
 Written as part of CMU's Computer Systems course. Received a 95.3% grade.
 ## Info on caches
 A cache is a higher-speed data storage layer which stores a subset of data from a larger, slower-speed data storage layer. Caches are comprised of a number of sets, each with a number of lines.
