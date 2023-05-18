@@ -1,5 +1,5 @@
 /**
- * @file csim.c
+ * @file cachesim.c
  * @brief Memory cache simulator in C
  *
  * A cache is a higher-speed data storage layer which stores a subset of
@@ -26,7 +26,7 @@
  *
  * To get started run from command line: ./csim -h
  *
- * @author Iltikin Wayet <idw@andrew.cmu.edu>
+ * @author Iltikin Wayet
  */
 
 #include "cachelab.h"
