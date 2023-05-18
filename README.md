@@ -19,7 +19,8 @@ cachesim.c expects traces to be text files with one memory operation per line. E
 ```Op Addr,Size```
 * ```Op``` denotes the type of memory access. It can be either L for a load, or S for a store.
 * ```Addr``` gives the memory address to be accessed. It should be a 64-bit hexadecimal number, without a leading 0x.
-* ```Size``` gives the number of bytes to be accessed at Addr. It should be a small, positive decimal number
+* ```Size``` gives the number of bytes to be accessed at Addr. It should be a small, positive decimal number.
+
 Here is a short example to simulate a load of four bytes from address ```0x0000000004f6b868```: ```L 4f6b868,4```
 ## Demos
 The version publicly available in this repository does not work on its own. For demos, please contact me at iltikinw@gmail.com, and I'd love to connect!
